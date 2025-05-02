@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #323232;
+    position: sticky;
+   
+}
+
+.navbar .navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    color: white;
+}
+
+.home-page{
+    min-height: 100vh;
+    width: 100%;
+   
+}
+
+.home-page h1{
+    color: white;
+
+}
+
+.home-page h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-page .btn{
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+
+.home-page .btn:hover{
+    background-color: #323232;
+    color:  #AA14F0;
+}
+
+.home-page .offcanvas{
+    background-color:  #1D2323;
+}
+
+.home-page .carousel-inner {
+    height: 700px;
+
+}
+
+.home-page .carousel-inner .carousel-item{
+    height: 100%;
+}
+
+.home-page .carousel-inner .carousel-item img{
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.aboutus-page{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.aboutus-page .content .left-panel{
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutus-page .content .right-panel{
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutus-page .content .right-panel .btn{
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+
+}
+
+.aboutus-page .content .right-panel .btn:hover{
+    background-color: #323232;
+    color:  #AA14F0;
+}

@@ -8,11 +8,13 @@ body{
     min-height: 100vh;
     width: 100%;
 }
+nav{
+    position: sticky;
+}
 
 .navbar{
     background-color: #323232;
-    position: sticky;
-   
+ 
 }
 
 .navbar .navbar-brand{
@@ -25,6 +27,15 @@ body{
 .navbar .navbar-nav .nav-item .nav-link{
     font-size: 18px;
     color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #AA14F0;
+}
+
+.navbar .navbar-nav .nav-item:hover{
+    color: #AA14F0;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
 }
 
 .home-page{
@@ -102,5 +113,32 @@ body{
 
 .aboutus-page .content .right-panel .btn:hover{
     background-color: #323232;
+    color:  #AA14F0;
+}
+
+.ourservice-page{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.ourservice-page .content .all-cards .card{
+    padding: 10px;
+    width: 350px;
+    height: 430px;
+    background-color: #323232;
+    border-radius: 20px;
+}
+
+.ourservice-page .content .all-cards .card .btn{
+    height: 50px;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
+.ourservice-page .content .all-cards .card .btn:hover{
+    background-color: #1D2323;
     color:  #AA14F0;
 }
